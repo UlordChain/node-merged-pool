@@ -1,12 +1,10 @@
-# A High performance Stratum poolserver for merge mining
-
-One instance of this software can startup and manage multiple coin
+High performance Stratum poolserver in Node.js. One instance of this software can startup and manage multiple coin
 pools, each with their own daemon and stratum port :)
 
 #### Notice
 This is a module for Node.js that will do nothing on its own. Unless you're a Node.js developer who would like to
 handle stratum authentication and raw share data then this module will not be of use to you. For a full featured portal
-that uses this module, see [Ulord (Node Open Mining Portal)](https://github.com/UlordChain/ulord-mm-pool). It
+that uses this module, see [Ulord (Node Open Mining Portal)](https://github.com/UlordChain/ulord-node-stratum-pool). It
 handles payments, website front-end, database layer, mutli-coin/pool support, auto-switching miners between coins/pools,
 etc.. The portal also has an [MPOS](https://github.com/MPOS/php-mpos) compatibility mode so that the it can function as
 a drop-in-replacement for [python-stratum-mining](https://github.com/Crypto-Expert/stratum-mining).
@@ -21,7 +19,6 @@ lower barrier to entry for other developers to fork and add features or fix bugs
 
 Features
 ----------------------------------
-* Merged Mining Support
 * Daemon RPC interface
 * Stratum TCP socket server
 * Block template / job manager
@@ -74,7 +71,7 @@ Example Usage
 #### Install as a node module by cloning repository
 
 ```bash
-git clone https://github.com/UlordChain/node-merged-pool node_modules/stratum-pool
+git clone https://github.com/UlordChain/node-stratum-pool node_modules/stratum-pool
 npm update
 ```
 
