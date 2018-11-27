@@ -36,7 +36,7 @@ Features
 * When started with a coin deamon that hasn't finished syncing to the network it shows the blockchain download progress and initializes once synced
 
 #### Hashing algorithms supported:
-* ✓ __CryptoHello__ (Ulord [UT])
+* ✓ __CryptoHello__ (Ulord Token[UT])
 * ✓ __SHA256__ (Bitcoin, Freicoin, Peercoin/PPCoin, Terracoin, etc..)
 * ✓ __Scrypt__ (Litecoin, Dogecoin, Feathercoin, etc..)
 * ✓ __Scrypt-Jane__ (YaCoin, CopperBars, Pennies, Tickets, etc..)
